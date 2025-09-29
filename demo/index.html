@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jsdom Toggle Reproduction</title>
+    <style>
+      body {
+        font-family: system-ui, sans-serif;
+        margin: 2rem;
+      }
+
+      #toggle-container {
+        border: 1px solid #ccc;
+        padding: 1rem;
+        width: fit-content;
+      }
+
+      button {
+        margin-bottom: 0.5rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Toggle visibility demo</h1>
+    <p>
+      Click the button to toggle the <code>is-visible</code> class on the container.
+      The paragraph should stay mounted regardless of visibility.
+    </p>
+    <script type="module" src="./main.js"></script>
+  </body>
+</html>
