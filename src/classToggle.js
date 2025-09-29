@@ -1,4 +1,4 @@
-export const BUTTON_ID = 'toggle-visibility';
+export const BUTTON_ID = 'toggle-button';
 export const CONTAINER_ID = 'toggle-container';
 export const RED_CLASS = 'is-red';
 export const PARAGRAPH_CLASS = 'toggle-paragraph';
