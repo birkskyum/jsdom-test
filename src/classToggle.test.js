@@ -38,6 +38,10 @@ describe('toggle reproduction', () => {
     button.click();
     expect(window.document.querySelectorAll(`.${RED_CLASS}`)).toHaveLength(0);
     
+    button.click();
+    expect(window.document.querySelectorAll(`.${RED_CLASS}`)).toHaveLength(1);
+    
+
     const paragraph = container.querySelector(`.${PARAGRAPH_CLASS}`);
     expect(paragraph).not.toBeNull();
   });
