@@ -17,7 +17,7 @@ function click(target) {
 }
 
 
-describe('toggleVisibility reproduction', () => {
+describe('toggle reproduction', () => {
   beforeEach(() => {
     document.body.innerHTML = '';
     document.head.innerHTML = '';
