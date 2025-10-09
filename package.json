@@ -1,6 +1,6 @@
 {
   "name": "jsdom-toggle-repro",
   "dependencies": {
-    "jsdom": "^27.0.0"
+    "jsdom": "^26.0.0"
   }
 }
